@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dd534cda3322e4f896138c36776a4c, type: 3}
+  m_Name: Night_Vision
+  m_EditorClassIdentifier: 
+  itemName: "\uC57C\uAC04\uD22C\uC2DC\uACBD"
+  itemImage: {fileID: 21300000, guid: 212ec5f22f2052d45b34194f105e4460, type: 3}
+  class_type: Agent_Char

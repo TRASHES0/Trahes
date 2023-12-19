@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/IntroTest.unity
+    guid: f550d5a0ed115ec47ace53c7cf31406c
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: 2c96c0be18c3b344abd0a8aed5a8b5e4
+  - enabled: 1
+    path: Assets/Scenes/Room.unity
+    guid: b61c7b19c975e694da1ef17588271283
+  - enabled: 1
+    path: Assets/Scenes/60SecondMap.unity
+    guid: d2b329158f7f1d2449c056bd98927a64
+  - enabled: 1
+    path: Assets/Scenes/Maps/NewForest.unity
+    guid: 0aaf367c3f7af9f43aa1441659ddadf7
+  - enabled: 1
+    path: Assets/Scenes/Maps/NewFactory.unity
+    guid: e70f9052ed2b4d748aef285f6b59d0f7
+  - enabled: 1
+    path: Assets/Scenes/Maps/NewDesert.unity
+    guid: e7cb7314d0681b04d8f7a58421b229a0
+  m_configObjects: {}

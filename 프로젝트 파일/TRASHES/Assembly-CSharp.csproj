@@ -1,0 +1,1252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{a7bedcdd-299f-16cf-ea4c-66ae9e0337fa}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
+    <DefineConstants>UNITY_2021_3_16;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169,0649</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\MinAttribute.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_EyeSet.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+     <Compile Include="Assets\Scripts\Object\ItemPickUp.cs" />
+     <Compile Include="Assets\Character\Stat_base.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_Prefabs.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_Manager.cs" />
+     <Compile Include="Assets\Scripts\Camera\SetMainCamera.cs" />
+     <Compile Include="Assets\Scripts\UI\DN.cs" />
+     <Compile Include="Assets\Scripts\Room\PlayerListing.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+     <Compile Include="Assets\SPUM\Sample\Script\PlayerManager.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_AnimationController.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\SoundManager.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Worker.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\LoadingSceneController.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\IntroStart.cs" />
+     <Compile Include="Assets\SPUM\Script\Ect\ColorSelect.cs" />
+     <Compile Include="Assets\MiniGame\QTE\SpinManager.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\NeuQuant.cs" />
+     <Compile Include="Assets\SPUM\Sprite_Editor(Beta)\Script\SpriteSync.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\GifFrame.cs" />
+     <Compile Include="Assets\MiniGame\QTE\SpawnManager.cs" />
+     <Compile Include="Assets\Scripts\Object\Player_Class_Info.cs" />
+     <Compile Include="Assets\SPUM\Script\Ect\SpritePos.cs" />
+     <Compile Include="Assets\Scripts\Camera\SmoothFollow.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_SpriteList.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
+     <Compile Include="Assets\MiniGame\QTE\TextManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\Simple_Char_Move.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_PackageButton.cs" />
+     <Compile Include="Assets\SPUM\Sample\Script\PlayerObj.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\MiniGameManager.cs" />
+     <Compile Include="Assets\Scripts\Object\Teleport.cs" />
+     <Compile Include="Assets\Scripts\UI\LogText.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\Time_SceneChangeManager.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\ChatManager.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\ReflectionUtils.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\PhotonManager.cs" />
+     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+     <Compile Include="Assets\SPUM\Sprite_Editor(Beta)\Script\SpriteEyeSync.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\GameManager.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_SpriteButtonST.cs" />
+     <Compile Include="Assets\Scripts\Room\PlayerListingsMenu.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\ButtonManager.cs" />
+     <Compile Include="Assets\Scripts\UI\ImageFade.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\Bullet_Test.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\NameManager.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+     <Compile Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\Scripts\Simple_Door_Interaction.cs" />
+     <Compile Include="Assets\SPUM\Sprite_Editor(Beta)\Script\SPUM_SpriteEditManager.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\LobbyManager.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\Attacked.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\MoveRobby.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_HorseSpriteList.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\PlayerCountManager.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_Button.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+     <Compile Include="Assets\SPUM\Sprite_SheetExporter(Beta)\Script\SPUM_Exporter.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\RoomChatManager.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Recorder.cs" />
+     <Compile Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\Prefabs\Move_Range.cs" />
+     <Compile Include="Assets\Scripts\GameDataCSV.cs" />
+     <Compile Include="Assets\Skill\Skill_base.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+     <Compile Include="Assets\Scripts\Manager&amp;Scene\InGameRoomChatManager.cs" />
+     <Compile Include="Assets\Scripts\Object\TrapDoor.cs" />
+     <Compile Include="Assets\Scripts\Object\Item.cs" />
+     <Compile Include="Assets\SPUM\Sprite_Editor(Beta)\Script\SpriteSyncManager.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\GifEncoder.cs" />
+     <Compile Include="Assets\SPUM\SoonsoonData\SoonsoonData.cs" />
+     <Compile Include="Assets\SPUM\Script\SPUM_PreviewItem.cs" />
+     <Compile Include="Assets\Scripts\UI\PlayerUI.cs" />
+     <Compile Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif\LzwEncoder.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+     <Compile Include="Assets\Scripts\PlayerScript\AimManager.cs" />
+     <Compile Include="Assets\Scripts\Room\RoomData.cs" />
+     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+     <Compile Include="Assets\Scripts\Enemy\PlayerHit.cs" />
+     <Folder Include="Assets" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\2_Cloth" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse1" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\1_FaceHair" />
+     <Folder Include="Assets\Image\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <Folder Include="Assets\SPUM\Prefab\AnimationSample" />
+     <Folder Include="Assets\SPUM\Sample\Script" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\4_Orc" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse1\Animation\Clip" />
+     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Overlay\Tiles" />
+     <Folder Include="Assets\Scenes\Maps" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Water" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Brick" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Sand\Tiles" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121\2_Cloth" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse2\Animation\Clip" />
+     <Folder Include="Assets\TextMesh Pro\Sprites" />
+     <Folder Include="Assets\SPUM\Res\UI\Icons" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\0_Hair" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Overlay" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Skin" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\6_Weapons" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse3\Animation" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Sprite Assets" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\changelog.txt" />
+     <Folder Include="Assets\Palette" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Skin\Tiles" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\4_Orc\Eye" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\3_Pant" />
+     <Folder Include="Assets\Low" />
+     <None Include="Assets\NavMeshPlus-master\package.json" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Stairs_Simple\RuleTile" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\6_Weapons" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <Folder Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing" />
+     <Folder Include="Assets\Sound\Skill" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Stairs_Simple\Tiles" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\WaterBlock_Shores_Complex" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Path\Sprites" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Fence" />
+     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Snow" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse3\Animation\Clip" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121\1_FaceHair" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\Prefabs" />
+     <Folder Include="Assets\Sound" />
+     <Folder Include="Assets\Photon\PhotonUnityNetworking" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\Scripts" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\6_Weapons" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\5_Armor" />
+     <Folder Include="Assets\SPUM\Script\Ect" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121\4_Helmet" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Path\RuleTile" />
+     <Folder Include="Assets\Scenes" />
+     <Folder Include="Assets\SPUM\Sample\Materials" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\WaterBlock_Shores_Simple" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\WaterBlock_Shores_Simple\RuleTile" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\WaterBlock_Shores_Complex\RuleTile" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\TilemapTemplate" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\4_Helmet" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\7_Back" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\0_Hair" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\TilePalette" />
+     <Folder Include="Assets\Scripts" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121\5_Armor" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Wood\Tiles" />
+     <Folder Include="Assets\SPUM\Sprite_SheetExporter(Beta)\Scene" />
+     <Folder Include="Assets\SPUM\Prefab" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <Folder Include="Assets\Character" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse1\Animation" />
+     <Folder Include="Assets\TextMesh Pro\Resources" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121" />
+     <Folder Include="Assets\SPUM\SoonsoonData" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse4" />
+     <Folder Include="Assets\Photon\PhotonRealtime\Demos" />
+     <Folder Include="Assets\Sound\QTE" />
+     <Folder Include="Assets\Scenes\UnitedMap" />
+     <Folder Include="Assets\Sound\Player" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\0_Hair" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse3\Prefabs" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121\5_Armor" />
+     <Folder Include="Assets\LJY_WorkSpace" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\WaterBlock_Shores_Complex\Sprites" />
+     <Folder Include="Assets\SPUM\Res\Materials" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\0_Human" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Grass" />
+     <Folder Include="Assets\SPUM\Res" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Roof_Hay_Simple\RuleTile" />
+     <Folder Include="Assets\Sound\enemy" />
+     <Folder Include="Assets\Resources\bullet" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\ImportSettings" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\Materials" />
+     <Folder Include="Assets\Scenes\Maps\NewForest" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\3_Pant" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Water\Animation_01\Sprites" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\2_Devil" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Lava\Tiles" />
+     <Folder Include="Assets\Photon\PhotonRealtime" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Fence\Rule Tile" />
+     <Folder Include="Assets\Resources\Fonts" />
+     <Folder Include="Assets\Scenes\Maps\UnitedMap" />
+     <Folder Include="Assets\TextMesh Pro" />
+     <Folder Include="Assets\SPUM" />
+     <Folder Include="Assets\Image" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse1\Prefabs" />
+     <Folder Include="Assets\SPUM\Sample\Prefabs" />
+     <Folder Include="Assets\Prefab" />
+     <Folder Include="Assets\CSV" />
+     <Folder Include="Assets\Character\Animation" />
+     <Folder Include="Assets\SPUM\Script\Plugin\Moments Recorder" />
+     <Folder Include="Assets\Scripts\Enemy" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\3_Pant" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages" />
+     <Folder Include="Assets\Scripts\Object" />
+     <Folder Include="Assets\Resources\Sound" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\2_Cloth" />
+     <Folder Include="Assets\SPUM\Script\Plugin" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Fence\Sprites" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse4\Animation\Clip" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Snow\Tiles" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\2_Cloth" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Grass\Tiles" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\0_Example_Scenes\Maps" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\5_Armor" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Stone" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <Folder Include="Assets\Scenes\Maps\NewDesert" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <Folder Include="Assets\Sprites" />
+     <Folder Include="Assets\SPUM\Sprite_SheetExporter(Beta)\Res" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\4_Helmet" />
+     <Folder Include="Assets\Photon\PhotonLibs\Metro" />
+     <None Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\README.txt" />
+     <Folder Include="Assets\Photon" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\2_Devil\Eye" />
+     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets\Resources\60 second asset\Fonts" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\3_Pant" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Low\Tiles" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\0_Human\Eye" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\WaterBlock_Shores_Simple\Sprites" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121\6_Weapons" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <Folder Include="Assets\SPUM\ScreenShots\GifExports" />
+     <Folder Include="Assets\SPUM\Sample" />
+     <None Include="Assets\SPUM\ReadMe - 1.6.2.txt" />
+     <Folder Include="Assets\MiniGame" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Low" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse2" />
+     <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.deps.json" />
+     <Folder Include="Assets\GoldenSkullStudios" />
+     <Folder Include="Assets\Sound\BGM" />
+     <Folder Include="Assets\SPUM\Res\Animation" />
+     <Folder Include="Assets\NavMeshPlus-master\NavMeshComponents" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <Folder Include="Assets\SPUM\Scene" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\readme.txt" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Items\7_Back" />
+     <None Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files\eurof_tt.txt" />
+     <Folder Include="Assets\TextMesh Pro\Shaders" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Units" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\2_Cloth" />
+     <Folder Include="Assets\SPUM\Res\Ect" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Roof_Hay_Simple" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos\Common" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse2\Prefabs" />
+     <Folder Include="Assets\TextMesh Pro\Resources\Style Sheets" />
+     <Folder Include="Assets\Resources\60 second asset" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\0_Example_Scenes" />
+     <Folder Include="Assets\TextMesh Pro\Fonts" />
+     <Folder Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts\Gif" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121\6_Weapons" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Roof_Hay_Simple\Sprites\Tiles" />
+     <Folder Include="Assets\Photon\PhotonUnityNetworking\Resources" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse2\Animation" />
+     <Folder Include="Assets\Photon\PhotonChat" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121\2_Cloth" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <Folder Include="Assets\SPUM\Res\Font" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Eyes" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Atlas" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\4_Helmet" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Lava" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Foliage" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\3_Skelton\Eye" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\1_FaceHair" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\1_Elf\Eye" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Items\7_Back" />
+     <Folder Include="Assets\SPUM\Res\UI" />
+     <Folder Include="Assets\Scenes\Maps\NewFactory" />
+     <Folder Include="Assets\Photon\PhotonUnityNetworking\Icons" />
+     <Folder Include="Assets\Scripts\Room" />
+     <Folder Include="Assets\GoldenSkullStudios\2D" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Water\Tiles" />
+     <Folder Include="Assets\SPUM\Sprite_Editor(Beta)\Script" />
+     <Folder Include="Assets\Scripts\UI" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\7_Back" />
+     <Folder Include="Assets\Resources\Item" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\5_Armor" />
+     <Folder Include="Assets\SPUM\ScreenShots" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras\Sprites" />
+     <Folder Include="Assets\SPUM\Sprite_Animation(Alpha)" />
+     <Folder Include="Assets\NavMeshPlus-master" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Extras" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\6_Weapons" />
+     <Folder Include="Assets\SPUM\Script" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\3_Skelton" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\0_Hair" />
+     <Folder Include="Assets\NavMeshPlus-master\Unity" />
+     <Folder Include="Assets\Resources\SPUM" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Stairs_Simple" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Path" />
+     <Folder Include="Assets\SPUM\Sample\Scene" />
+     <Folder Include="Assets\SPUM\Sprite_Editor(Beta)" />
+     <None Include="Assets\Photon\PhotonLibs\Photon3Unity3D.xml" />
+     <Folder Include="Assets\Resources\ScreenShots\GifExports" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300" />
+     <Folder Include="Assets\Resources\60 second asset\Materials" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse3" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Brick\Tiles" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species" />
+     <Folder Include="Assets\Resources" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <Folder Include="Assets\Photon\PhotonChat\Demos\DemoChat" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Sand" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121\1_FaceHair" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Dirt\Tiles" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver300\4_Helmet" />
+     <Folder Include="Assets\TextMesh Pro\Documentation" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121\4_Helmet" />
+     <Folder Include="Assets\Photon\PhotonLibs\netstandard2.0" />
+     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
+     <Folder Include="Assets\SPUM\Res\Prefabs" />
+     <Folder Include="Assets\SPUM\Sprite_SheetExporter(Beta)" />
+     <Folder Include="Assets\Low\Tiles" />
+     <Folder Include="Assets\Photon\PhotonLibs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver300\5_Armor" />
+     <Folder Include="Assets\Scripts\PlayerScript" />
+     <Folder Include="Assets\Photon\PhotonLibs\WebSocket" />
+     <Folder Include="Assets\SPUM\Script\Plugin\Moments Recorder\Scripts" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Stairs_Simple\Sprites" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Autotiles\Roof_Hay_Simple\Sprites" />
+     <Folder Include="Assets\Resources\ScreenShots" />
+     <Folder Include="Assets\Resources\Sound\Effect" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse4\Prefabs" />
+     <Folder Include="Assets\Scripts\Manager&amp;Scene" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\RideSource\Horse4\Animation" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\BodySource\Species\1_Elf" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Stone\Tiles" />
+     <Folder Include="Assets\SPUM\Sprite_SheetExporter(Beta)\Script" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Dirt" />
+     <Folder Include="Assets\SPUM\Res\Animation\Clip" />
+     <Folder Include="Assets\Resources\SPUM\SPUM_Sprites\Packages\Ver121\0_Hair" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne.json" />
+     <Folder Include="Assets\NavMeshPlus-master\Gizmos" />
+     <Folder Include="Assets\SPUM\Extra" />
+     <Folder Include="Assets\Skill" />
+     <Folder Include="Assets\SPUM\SPUM_Sprites\Packages\Ver121\0_Hair" />
+     <Folder Include="Assets\Scripts\Camera" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Wood" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Water\Animation_01" />
+     <Folder Include="Assets\MiniGame\QTE" />
+     <Folder Include="Assets\GoldenSkullStudios\2D\2D_Iso_Tile_Pack_Starter\Sprites\Foliage\Tiles" />
+     <Reference Include="UnityEngine">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AIModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ARModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ARModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AccessibilityModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AccessibilityModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AndroidJNIModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AndroidJNIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AnimationModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AnimationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AssetBundleModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.AudioModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClothModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CoreModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.CrashReportingModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.CrashReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DSPGraphModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DSPGraphModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.DirectorModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.DirectorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GIModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GameCenterModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GameCenterModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.GridModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.GridModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.HotReloadModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.HotReloadModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.IMGUIModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.IMGUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ImageConversionModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ImageConversionModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.InputLegacyModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.InputLegacyModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.JSONSerializeModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.JSONSerializeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.LocalizationModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ParticleSystemModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PerformanceReportingModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PerformanceReportingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.PhysicsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.PhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.Physics2DModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.Physics2DModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ProfilerModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ProfilerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ScreenCaptureModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.ScreenCaptureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SharedInternalsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SharedInternalsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteMaskModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteMaskModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SpriteShapeModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SpriteShapeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.StreamingModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.StreamingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubstanceModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubstanceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.SubsystemsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.SubsystemsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TLSModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TLSModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TerrainPhysicsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreFontEngineModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextCoreTextEngineModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TextRenderingModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TextRenderingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.TilemapModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.TilemapModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UIElementsNativeModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UIElementsNativeModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UNETModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UNETModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UmbraModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UmbraModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityConnectModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityCurlModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityCurlModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityTestProtocolModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VFXModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VFXModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VRModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VehiclesModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VehiclesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VideoModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.WindModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.XRModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.XRModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.CoreModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.CoreModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DeviceSimulatorModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DeviceSimulatorModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.DiagnosticsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.DiagnosticsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.GraphViewModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.GraphViewModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.PackageManagerUIModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.PackageManagerUIModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.QuickSearchModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.QuickSearchModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.SceneTemplateModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.SceneTemplateModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreFontEngineModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.TextCoreTextEngineModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIBuilderModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIBuilderModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIElementsSamplesModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIElementsSamplesModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UIServiceModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UIServiceModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UnityConnectModule">
+     <HintPath>D:\2021.3.16f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+     </Reference>
+     <Reference Include="websocket-sharp">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
+     </Reference>
+     <Reference Include="Photon3Unity3D">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.burst@1.6.6\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Newtonsoft.Json">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tracing">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="mscorlib">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Core">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Web">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Web">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Windows">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Linq">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.Serialization">
+     <HintPath>D:\2021.3.16f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEngineBridge.001">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+     </Reference>
+     <Reference Include="PsdPlugin">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Path.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEditor.UI">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Rider.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.UI">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.IK.Runtime">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualStudio.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.TextMeshPro">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Sprite.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Psdimporter.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.InternalAPIEditorBridge.001">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Flow">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.PlasticSCM.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Core">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Analytics">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.Shared.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Services.Core.Environments">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Animation.Runtime">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.PixelPerfect.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Timeline.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.Common.Runtime">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Editor">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.2D.SpriteShape.Runtime">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>D:\steamproject\Trahes\프로젝트 파일\TRASHES\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{b28fe437-5460-1814-d155-9a3af19a30a8}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshPlusEditor.csproj">
+      <Project>{94db6379-1b24-022c-d7f4-ec5565821bd6}</Project>
+      <Name>NavMeshPlusEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="NavMeshPlus.csproj">
+      <Project>{903c57ac-cbc9-4826-608e-04e3ca4e107f}</Project>
+      <Name>NavMeshPlus</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Editor.csproj">
+      <Project>{18de9cdb-1889-8c0c-7cfd-edbb82108db8}</Project>
+      <Name>PhotonUnityNetworking.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
+      <Project>{53ae4e00-51b0-8f06-6917-e54e9bcae4a2}</Project>
+      <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
+      <Project>{43025cab-5ad5-bfc0-1ce3-adc4a24b66aa}</Project>
+      <Name>PunDemos.DemoHubEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.csproj">
+      <Project>{ee4eb2a9-d7a7-b872-ed8a-058fa785f0a7}</Project>
+      <Name>PhotonUnityNetworking</Name>
+    </ProjectReference>
+    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
+      <Project>{481904f6-581a-50c1-5e55-58d7c6cb95b1}</Project>
+      <Name>PunDemos.DemoSlotcarEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.Culling.Editor.csproj">
+      <Project>{c2ed7a33-06d1-74c4-a68e-618cbb0df89c}</Project>
+      <Name>PhotonUnityNetworking.Utilities.Culling.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{11ad4a43-ec08-9e3a-3a6d-47f7f388bf95}</Project>
+      <Name>PhotonRealtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
+      <Project>{94926b2a-ac68-d70b-17b0-9e1afa48c138}</Project>
+      <Name>PhotonUnityNetworking.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
+      <Project>{78b13c7a-6839-cf05-1cd2-57c17b94f0dc}</Project>
+      <Name>PhotonUnityNetworking.Demos</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

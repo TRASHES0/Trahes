@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bullet
+  - HIt
+  - Item
+  - Box
+  - KeyBox
+  - Player_Collider
+  - Hit
+  - PlayerHitScan
+  - Text
+  - Gate
+  - HIT
+  - UI
+  - SkillSpin
+  - CheckZone
+  - CheckText
+  - SkillCheck
+  - PerfectCheck
+  - NoneCheck_Left
+  - NoneCheck
+  - GoodCheck
+  - Enemy
+  - EnemyRange
+  - GameDataSaver
+  - MainUI
+  - Wall
+  - PlayerCount
+  - BulletBox
+  - LockBox
+  - Trapdoor
+  - ExitKey
+  - EnemyHitScan
+  - Zkey
+  - ZkeyText
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - wall
+  - Water
+  - UI
+  - MainUI
+  - Hit
+  - Bullet
+  - EnemyHit
+  - Enemy
+  - Object
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3896384401
+    locked: 0
+  - name: Object
+    uniqueID: 1207929367
+    locked: 0
+  - name: Bullet
+    uniqueID: 3505094913
+    locked: 0
+  - name: Player
+    uniqueID: 3387980059
+    locked: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a021ad55423a3624f98feba63a8189a1, type: 3}
+  m_Name: Collector_Char
+  m_EditorClassIdentifier: 
+  speed_set: 4.75
+  MAX_HP_set: 4
+  firelate_set: 1
+  firedelay_set: 0
+  Max_Bullet_set: 35
+  regenerativeTime: 30
+  ghost: {fileID: 8300000, guid: b508b47f172b5da42b21974a627fa247, type: 3}
+  skill2Sound:
+  - {fileID: 8300000, guid: afdfdb9185b892e4d9ec0942f3f8b6fb, type: 3}
+  - {fileID: 8300000, guid: f3387a81d98da3045966096870daaab1, type: 3}

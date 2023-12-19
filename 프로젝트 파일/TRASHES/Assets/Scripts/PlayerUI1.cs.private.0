@@ -1,0 +1,124 @@
+using Photon.Pun;
+using Photon.Pun.UtilityScripts;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class PlayerUI : MonoBehaviourPun
+{
+
+    private int start_HP;
+    private int minutes;
+    private int seconds;
+    private bool nightCheck = true;
+
+    public Image[] HP;
+
+    public CanvasGroup bloodScreenGroup;
+    public CanvasGroup dayGroup;
+    public CanvasGroup nightGroup;
+    public CanvasGroup dieGroup;
+
+    //public Text Actor;
+    public Text Bullet;
+    public Text timerText;
+    public Button die_button;
+
+    public GameObject Player;
+
+    // Start is called before the first frame update
+    void Awake()
+    {
+        die_button.gameObject.SetActive(false);
+
+        //Actor.text = transform.GetComponentInParent<PlayerAttack>().actorNum.ToString();
+        InvokeRepeating("NoticeChangeDay", 60f, 60f);
+    }
+
+    private void Start()
+    {
+        FindPlayer();
+        setStartHP();
+        ShowBullet();
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        // 시간을 분과 초로 나누기
+        minutes = Mathf.FloorToInt(Player.GetComponent<Simple_Char_Move>().Get_Timer() / 60);
+        seconds = Mathf.FloorToInt(Player.GetComponent<Simple_Char_Move>().Get_Timer() % 60);
+
+        // UI Text에 시간 표시 (분:초 형식)
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+        //ShowBullet();
+        //ShowHP();
+        //Actor.text = transform.GetComponentInParent<PlayerAttack>().actorNum.ToString();
+
+    }
+
+    public void FindPlayer()
+    {
+        foreach (GameObject player in GameObject.FindGameObjectsWithTag("Player"))
+        {
+            Debug.Log("hi");
+            if (player.GetComponent<PhotonView>().OwnerActorNr == PhotonNetwork.LocalPlayer.GetPlayerNumber())
+            {
+                Player = player;
+            }
+        }
+    }
+    public void ShowBullet()
+    {
+        Bullet.text = Player.GetComponent<Simple_Char_Move>().Get_BulletText().ToString();
+    }
+
+    public void ShowHP()
+    {
+        //gameObject.GetComponent<ImageFade>().FadeInAndOut(1.0f, bloodScreenGroup);
+
+        int tempHP = Player.GetComponent<Simple_Char_Move>().Get_HP();
+
+        for (int i = start_HP; i > tempHP; i--)
+        {
+            HP[i - 1].enabled = false;
+        }
+
+    }
+
+    public void setStartHP()
+    {
+        start_HP = Player.GetComponent<Simple_Char_Move>().MAX_hp_set;
+
+        for (int i = start_HP; i < 5; i++)
+        {
+            HP[i].enabled = false;
+        }
+    }
+
+    public void NoticeChangeDay()
+    {
+        Debug.Log("낮밤 : " + nightCheck);
+        if (nightCheck)
+        {
+            Debug.Log("밤입니다");
+            GetComponentInParent<ImageFade>().FadeInAndOut(2.0f, nightGroup);
+        }
+        else
+        {
+            Debug.Log("낮입니다");
+            GetComponentInParent<ImageFade>().FadeInAndOut(2.0f, dayGroup);
+        }
+
+        nightCheck = !nightCheck;
+    }
+
+    public void NoticeDie()
+    {
+        dieGroup.alpha = 1.0f;
+        die_button.gameObject.SetActive(true);
+
+        Debug.Log(dieGroup.alpha);
+    }
+}
